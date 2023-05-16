@@ -55,7 +55,7 @@ const questions = [
         type: "list",
         name: "License",
         message: "What type of license?",
-        choices: ["MIT","GNU", "ISC"],
+        choices: ["MIT","GNU v3", "ISC"],
 
         filter(val){
             return val
