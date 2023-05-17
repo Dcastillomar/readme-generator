@@ -1,5 +1,5 @@
 //packages needed for this application
-const fs= require("fs");
+const fs = require("fs");
 const inquirer = require('inquirer');
 const markdown = require('./utils/generateMarkdown');
 const generateMarkdown = require("./utils/generateMarkdown");
@@ -55,9 +55,9 @@ const questions = [
         type: "list",
         name: "License",
         message: "What type of license?",
-        choices: ["MIT","GNU v3", "ISC"],
+        choices: ["MIT", "GNU v3", "ISC"],
 
-        filter(val){
+        filter(val) {
             return val
         }
 
@@ -71,19 +71,19 @@ function writeToFile(fileName, userInput) {
             console.error(err);
         }
     })
-   
-   
+
+
 }
 
 // TODO: Create a function to initialize app
 function startUp() {
-  return inquirer.prompt(questions)
-    .then((userInput) => {
-        const createReadME = (generateMarkdown(userInput));
-        writeToFile("exampleREADME.md", createReadME);
-    })
-    
-    
+    return inquirer.prompt(questions)
+        .then((userInput) => {
+            const createReadME = (generateMarkdown(userInput));
+            writeToFile("exampleREADME.md", createReadME);
+        })
+
+
 }
 
 // Function call to initialize app
