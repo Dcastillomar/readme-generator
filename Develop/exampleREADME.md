@@ -1,4 +1,4 @@
-# asdf
+# Readme Generator
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
    
   ## Table of Content
@@ -12,23 +12,23 @@
 
 
   ## Description
-  asdf
+  This project is a readme file generator. The user follows the prompts and answers the questions to create a concise Readme file.
 
   ## Installation
-  asdf
+  Please install inquirer before starting.
 
   ## Usage
-  asdf
+  The user types node index.js after finding the appropriate file. The terminal will then show different questions to build the readme file. At the end of the questions  the program will create the readme under the exampleREADME.md file.
 
   ## Contribution
-  asdf
+  Please contact me for any questions.
 
   ## Questions
-  asdf
-  asdf
+  dcastillomar89@yahoo.com
+  dcastillomar
 
   ## Test 
-  asdf
+  type node test
 
   ## License
     
