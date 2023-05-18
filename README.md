@@ -27,3 +27,5 @@ After installing Node.js and inquirer, open the terminal. In the terminal the us
 ## License
 
 Please refer to the License in the repo.
+
+![Alt text](Develop/utils/README%20pic.png)

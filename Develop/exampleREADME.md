@@ -1,4 +1,4 @@
-# Readme Generator
+# README Generator
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
    
   ## Table of Content
@@ -12,13 +12,13 @@
 
 
   ## Description
-  This project is a readme file generator. The user follows the prompts and answers the questions to create a concise Readme file.
+  This is a program which helps the user make a README.md file using a series of question prompts.
 
   ## Installation
-  Please install inquirer before starting.
+  Please install Node.js and inquirer for this program.
 
   ## Usage
-  The user types node index.js after finding the appropriate file. The terminal will then show different questions to build the readme file. At the end of the questions  the program will create the readme under the exampleREADME.md file.
+  Open the terminal and navigate to the appropriate file path. Type in the terminal node index.js. A question will appear on the screen. Answer the questions with details for the user. When finished with the questions, navigate to the exampleREADME.md file to see the finished result. Alternatively navigate to the preview to see a preview of the README.
 
   ## Contribution
   Please contact me for any questions.
@@ -28,7 +28,7 @@
   dcastillomar
 
   ## Test 
-  type node test
+  Use node test
 
   ## License
     
