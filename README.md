@@ -15,6 +15,7 @@ I learned a lot about Node.js and installing applications to use in the terminal
 Node.js and inquirer
 
 ## Usage
+Walkthrough video: https://drive.google.com/file/d/1Xwr4kCJDQKuN9r8FZz7KH9X3oudPeB3R/view
 
 After installing Node.js and inquirer, open the terminal. In the terminal the user will navigate to the proper folder and file. When the file path is set correctly, type in node index.js. This will show one question at a time to be answered by the user until the README file data is collected. When the questions are all answered navigate to the exampleREADME.md. The user can then open the preview to view the file created. 
 
